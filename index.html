@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/575f09d0fb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="dark">
+    <button id="theme__toggle">
+      <span class="d-block-light d-none"><i class="fa-solid fa-moon"></i></span>
+      <span class="d-block-dark d-none"><i class="fa-solid fa-sun"></i></span>
+    </button>
+    <h1>Calculator</h1>
+    <div class="calculator">
+      <div class="calculator__display">0</div>
+      <div class="calculator__keys">
+        <button data-action="addition">+</button>
+        <button data-action="subtraction">-</button>
+        <button data-action="multiplication">*</button>
+        <button data-action="division">/</button>
+        <button class="calculator__equals" data-action="equals">=</button>
+        <button>9</button>
+        <button>8</button>
+        <button>7</button>
+        <button>6</button>
+        <button>5</button>
+        <button>4</button>
+        <button>3</button>
+        <button>2</button>
+        <button>1</button>
+        <button>0</button>
+        <button>.</button>
+        <button>AC</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
